@@ -33,7 +33,7 @@ console.log($(".full-screen"));
 
 // section1のスライダー用
 　$('.bgimg-slider').bgSwitcher({
-  　　images: ['./assets/img/topview1.JPG','./assets/img/topview2.JPG','./assets/img/topview3.JPG','./assets/img/topview4.JPG','./assets/img/topview5.JPG'],
+  　　images: ['./assets/img/topview2.JPG','./assets/img/topview3.JPG','./assets/img/topview1.JPG','./assets/img/topview4.JPG'],
   　　effect: "drop",
   　　easing: "linear"
   　});
