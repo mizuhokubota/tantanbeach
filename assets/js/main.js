@@ -14,3 +14,10 @@ $(document).on('ready', function() {
 });
 
 console.log($(".full-screen"));
+
+// section1のスライダー用
+　$('.bgimg-slider').bgSwitcher({
+  　　images: ['../img/miyagikaigan.jpg','../img/momenbaru1.JPG','../img/araha3.JPG'],
+  　　effect: "drop",
+  　　easing: "linear"
+  　});
