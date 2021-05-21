@@ -12,7 +12,7 @@ $(function(){
         });
       });
 
-})
+
 
 
 
@@ -33,8 +33,9 @@ console.log($(".full-screen"));
 
 // section1のスライダー用
 　$('.bgimg-slider').bgSwitcher({
-  　　images: ['../img/topview1.JPG','../img/topview2.JPG','../img/topview3.JPG'],
+  　　images: ['./assets/img/topview1.JPG','./assets/img/topview2.JPG','./assets/img/topview3.JPG','./assets/img/topview4.JPG','./assets/img/topview5.JPG'],
   　　effect: "drop",
   　　easing: "linear"
   　});
 
+})
