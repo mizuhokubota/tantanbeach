@@ -17,7 +17,7 @@ console.log($(".full-screen"));
 
 // section1のスライダー用
 　$('.bgimg-slider').bgSwitcher({
-  　　images: ['../img/miyagikaigan.jpg','../img/momenbaru1.JPG','../img/araha3.JPG'],
+  　　images: ['../img/topview1.JPG','../img/topview2.JPG','../img/topview3.JPG'],
   　　effect: "drop",
   　　easing: "linear"
   　});
