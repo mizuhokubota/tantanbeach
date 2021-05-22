@@ -1,4 +1,29 @@
 
+<<<<<<< HEAD
+=======
+/* section1 */
+.bgimg-slider {
+  width: 100vw;
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider-title {
+  color: #fff;
+  font-size: 48px;
+  line-height: 1.5;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000;
+}
+.slider-title > img {
+   height: 350px;
+}
+/*slick*/
+>>>>>>> 28dcbdc0b48bf11c0332b8a64c825ce6973389d6
 
 html, body {
     margin: 0;
