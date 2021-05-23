@@ -42,3 +42,13 @@ html, body {
 
 /* section2 */ 
 
+
+/* footer */
+footer{
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 1px;
+  font-size: 11px;
+}
+
