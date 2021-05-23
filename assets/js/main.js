@@ -10,7 +10,7 @@ $(function () {
   });
 
 
-  // section2
+  // メインスライダー
   $(function () {
     $('.beaches').slick({
       dots: true,
