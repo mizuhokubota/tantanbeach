@@ -34,8 +34,8 @@ main{
 }
 
 .topback{
-  padding: 5px 10px;
-  margin: 15px 10px;
+ padding: 5px 10px;
+   margin: 15px 10px;
   border: 1px solid #000;
 }
 
@@ -48,4 +48,5 @@ text-decoration: none;
 footer{
   background-color: black;
   color: #fff;
+  margin-top: 20px;
 }
