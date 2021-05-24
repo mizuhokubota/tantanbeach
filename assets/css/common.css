@@ -25,7 +25,10 @@ main{
   text-align: center;
   padding: 3%;
 }
-
+.description>img{
+  width: 600px;
+  height: 400px;
+}
 .access{
   display: flex;
   justify-content: space-between;
