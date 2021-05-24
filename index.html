@@ -1,66 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./assets/css/slick-theme.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/slick.css"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">  
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap&family=Courgette&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>TanTanBeach</title>
-</head>
-<body>
-    <main>
-        <section class = "section1">
-          <div class="bgimg-slider">
-            <h1 class="slider-title"><img src="./assets/img/ttblogo.png" alt="logo"></h1>
-          </div>
-        </section>
-        <section class="section1_1">
-          <p>北谷・読谷のおすすめのビーチをご紹介<i class="fas fa-umbrella-beach"></i></p>
-        </section>
-        <section class = "section2">
-          <ul class= "beaches slick">
-                <!-- <li><a href="./araha.html"><div class ="araha beachname"><p>あらは</p></div></a></li>
-                <li><a href="./baba.html"><div class ="baba beachname"><p>ばば</p></div></a></li>
-                <li><a href="./miyagi.html"><div class ="miyagi beachname"><p>宮城</p></div></a></li>
-                <li><a href="./momenbaru.html"><div class ="momen beachname"><p>木綿</p></div></a></li>
-                <li><a href="./sunset.html"><div class ="sunset beachname"><p>サンセット</p></div></a></li>
-                <li><a href="./toguchi.html"><div class ="toguchi beachname"><p>とぐち</p></div></a></li> -->
-                <li><a href="./araha.html"><div class ="araha beachname"><p>あらは</p></div></a></li>
-                <li><a href="./baba.html"><div class ="baba beachname"><p>ばば</p></div></a></li>
-                <li><a href="./miyagi.html"><div class ="miyagi beachname"><p>宮城</p></div></a></li>
-                <li><a href="./momenbaru.html"><div class ="momen beachname"><p>木綿</p></div></a></li>
-                <li><a href="./sunset.html"><div class ="sunset beachname"><p>サンセット</p></div></a></li>
-                <li><a href="./toguchi.html"><div class ="toguchi beachname"><p>とぐち</p></div></a></li>
 
-                <!-- <li><a href="./araha.html"><img alt="araha-beach" src="./assets/img/araha.png" /></a></li> -->
-                <!-- <li><a href="./baba.html"><img alt="baba-beach" src="./assets/img/baba.png" /></a></li>
-                <li><a href="./miyagi.html"><img alt="miyagi-beach" src="./assets/img/miyagi.png" /></a></li>
-                <li><a href="./momenbaru.html"><img alt="momenruru-beach" src="./assets/img/momen.png" /></a></li>
-                <li><a href="./sunset.html"><img alt="sunset-beach" src="./assets/img/sunset.png" /></a></li>
-                <li><a href="./toguchi.html"><img alt="toguchi-beach" src="./assets/img/toguchi.png" /></a></li>
-                <li><a href="./araha.html"><img alt="araha-beach" src="./assets/img/araha.png" /></a></li>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./assets/css/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/slick.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap&family=Courgette&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>TanTanBeach</title>
+</head>
+
+<body>
+  <main>
+    <section class="section1">
+      <div class="bgimg-slider">
+        <h1 class="slider-title"><img src="./assets/img/ttblogo.png" alt="logo"></h1>
+      </div>
+    </section>
+    <section class="section1_1">
+      <p>北谷・読谷のおすすめのビーチをご紹介<i class="fas fa-umbrella-beach"></i></p>
+    </section>
+    <section class="section2">
+      <ul class="beaches slick">
+        <li>
+          <div>
+            <a href="./araha.html">
+              <div class="beach_flex">
+                <div>
+                  <p class="boldtext">アラハビーチ</p>
+                  <p class="redtext">Araha beach</p>
+                </div>
+                <div>
+                  <img src="./assets/img/outline_location_on_black_24dp.png" alt="">
+                </div>
+              </div>
+              <img alt="araha-beach" src="./assets/img/araha.png" />
+            </a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a href="./araha.html">
+              <div class="beach_flex">
+                <div>
+                  <p class="boldtext">馬場海岸</p>
+                  <p class="redtext">Baba beach</p>
+                </div>
+                <div>
+                  <img src="./assets/img/outline_location_on_black_24dp.png" alt="">
+                </div>
+              </div>
+              <img alt="araha-beach" src="./assets/img/baba.png" />
+            </a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a href="./araha.html">
+              <div class="beach_flex">
+                <div>
+                  <p class="boldtext">宮城海岸</p>
+                  <p class="redtext">Miyagi beach</p>
+                </div>
+                <div>
+                  <img src="./assets/img/outline_location_on_black_24dp.png" alt="">
+                </div>
+              </div>
+              <img alt="araha-beach" src="./assets/img/miyagi.png" />
+            </a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a href="./araha.html">
+              <div class="beach_flex">
+                <div>
+                  <p class="boldtext">もめんばるビーチ</p>
+                  <p class="redtext">Momenbaru beach</p>
+                </div>
+                <div>
+                  <img src="./assets/img/outline_location_on_black_24dp.png" alt="">
+                </div>
+              </div>
+              <img alt="araha-beach" src="./assets/img/momen.png" />
+            </a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a href="./araha.html">
+              <div class="beach_flex">
+                <div>
+                  <p class="boldtext">サンセットビーチ</p>
+                  <p class="redtext">Sunset beach</p>
+                </div>
+                <div>
+                  <img src="./assets/img/outline_location_on_black_24dp.png" alt="">
+                </div>
+              </div>
+              <img alt="araha-beach" src="./assets/img/sunset.png" />
+            </a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a href="./araha.html">
+              <div class="beach_flex">
+                <div>
+                  <p class="boldtext">渡具知海岸</p>
+                  <p class="redtext">Toguchi beach</p>
+                </div>
+                <div>
+                  <img src="./assets/img/outline_location_on_black_24dp.png" alt="">
+                </div>
+              </div>
+              <img alt="araha-beach" src="./assets/img/toguchi.png" />
+            </a>
+          </div>
+        </li>
+
+
+
+
+        <!-- <li>
+          <div>
+            <p class="boldtext">馬場海岸</p>
+            <p class="redtext">baba beach</p>
+          </div><a href="./baba.html"><img alt="baba-beach" src="./assets/img/baba.png" /></a>
+        </li>
+        <li>
+          <div>
+            <p class="boldtext">宮城海岸</p>
+            <p class="redtext">Miyagi beach</p>
+          </div><a href="./miyagi.html"><img alt="miyagi-beach" src="./assets/img/miyagi.png" /></a>
+        </li>
+        <li>
+          <div>
+            <p class="boldtext">もめんばるビーチ</p>
+            <p class="redtext">Momenbaru beach</p>
+          </div><a href="./momenbaru.html"><img alt="momenruru-beach" src="./assets/img/momen.png" /></a>
+        </li>
+        <li>
+          <div>
+            <p class="boldtext">サンセットビーチ</p>
+            <p class="redtext">Sunset beach</p>
+          </div><a href="./sunset.html"><img alt="sunset-beach" src="./assets/img/sunset.png" /></a>
+        </li>
+        <li>
+          <div>
+            <p class="boldtext">渡具知海岸</p>
+            <p class="redtext">Toguchi beach</p>
+          </div><a href="./toguchi.html"><img alt="toguchi-beach" src="./assets/img/toguchi.png" /></a>
+        </li> -->
+        <!-- <li><a href="./araha.html"><img alt="araha-beach" src="./assets/img/araha.png" /></a></li>
                 <li><a href="./baba.html"><img alt="baba-beach" src="./assets/img/baba.png" /></a></li>
                 <li><a href="./miyagi.html"><img alt="miyagi-beach" src="./assets/img/miyagi.png" /></a></li>
                 <li><a href="./momenbaru.html"><img alt="momenruru-beach" src="./assets/img/momen.png" /></a></li>
                 <li><a href="./sunset.html"><img alt="sunset-beach" src="./assets/img/sunset.png" /></a></li>
                 <li><a href="./toguchi.html"><img alt="toguchi-beach" src="./assets/img/toguchi.png" /></a></li> -->
-              </ul>
-            
-              </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-      <p>Copyright © Kubota.Shimozato.ALL RIGHTS RESERVED.</p>
+      </ul>
+
+      </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright © Kubota.Shimozato.ALL RIGHTS RESERVED.</p>
   </footer>
-    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script defer type="text/javascript" src="./assets/js/slick.min.js"></script>
-    <script defer src="./assets/js/jquery.bgswitcher.js"></script>
-    <script defer src="./assets/js/main.js"></script>
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script defer type="text/javascript" src="./assets/js/slick.min.js"></script>
+  <script defer src="./assets/js/jquery.bgswitcher.js"></script>
+  <script defer src="./assets/js/main.js"></script>
 </body>
+
 </html>

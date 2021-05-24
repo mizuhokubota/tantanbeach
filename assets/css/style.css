@@ -55,7 +55,33 @@ html, body {
   width: 200px;
   height: 200px;
 }
-.araha{
+
+.boldtext{
+  font-weight: bold;
+  margin-bottom: 0;
+  color: #000;
+  font-size: large;
+}
+
+a{
+  text-decoration: none;
+}
+
+.redtext{
+  color: blue;
+  margin: 0;
+}
+
+.beach_flex{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 200px;
+}
+
+
+/* .araha{
   background-image: url(../img/araha.png);
 }
 
@@ -77,7 +103,7 @@ html, body {
 
 .miyagi{
   background-image: url(../img/miyagi.png)
-}
+} */
 
 
 
