@@ -13,11 +13,13 @@ $(function () {
   // メインスライダー
   $(function () {
     $('.beaches').slick({
+      autoplay: true,
+      autoplaySpeed: 2000,
       dots: true,
-      infinite: false,
-      speed: 300,
+      infinite: true,
+      speed: 500,
       slidesToShow: 6,
-      slidesToScroll: 4,
+      slidesToScroll: 1,
       responsive: [
         {
           breakpoint: 1024,
@@ -53,11 +55,3 @@ $(function () {
 
 });
 
-console.log($(".full-screen"));
-
-// section1のスライダー用
-$('.bgimg-slider').bgSwitcher({
-  images: ['./assets/img/topview2.JPG', './assets/img/topview3.JPG', './assets/img/topview1.JPG', './assets/img/topview4.JPG'],
-  effect: "drop",
-  easing: "linear"
-});

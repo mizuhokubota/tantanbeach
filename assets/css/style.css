@@ -41,6 +41,44 @@ html, body {
 
 
 /* section2 */ 
+.beachname{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.beachname > p{
+  margin-bottom: 0;
+}
+.araha, .momen, .sunset, .baba, .toguchi, .miyagi{
+  background-image: url(../img/araha.png);
+  width: 200px;
+  height: 200px;
+}
+.araha{
+  background-image: url(../img/araha.png);
+}
+
+.baba{
+  background-image: url(../img/baba.png)
+}
+
+.momen{
+  background-image: url(../img/momen.png)
+}
+
+.sunset{
+  background-image: url(../img/sunset.png)
+}
+
+.toguchi{
+  background-image: url(../img/toguchi.png)
+}
+
+.miyagi{
+  background-image: url(../img/miyagi.png)
+}
+
 
 
 /* footer */
