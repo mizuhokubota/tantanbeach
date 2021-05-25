@@ -2,6 +2,7 @@ body{
   font-family: 'Noto Sans JP', sans-serif;
   background-color: #F4eade;
 }
+/* top */
 .top_main{
   display: flex;
   flex-direction: column;
@@ -29,13 +30,19 @@ body{
   width: 600px;
   height: 400px;
 }
+/* map */
 .access{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 70px;
 }
+.map{
+  width:400px ;
+  height: 300px;
+}
 
+/* top戻る */
 .topback{
  padding: 5px 10px;
    margin: 15px 10px;
@@ -53,3 +60,28 @@ footer{
   color: #fff;
   margin-top: 20px;
 }
+
+/* レスポンシブ */
+@media screen and (max-width :767px){
+
+  /* top */
+  .top_main >h1{
+    font-size: 20px;
+  }
+  .top_main >h1>img{
+    height: 15px;
+  }
+  .description>img{
+    width: 250px;
+    height: 150px;
+  }
+  /* map */
+  .access{
+    flex-direction: column;
+  }
+  .map{
+    width:250px ;
+    height: 150px;
+  }
+}
+
