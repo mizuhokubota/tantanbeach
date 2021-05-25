@@ -4,7 +4,7 @@ $(function () {
 
   // section1のスライダー用
   $('.bgimg-slider').bgSwitcher({
-    images: ['assets/img/topview2.JPG', 'assets/img/topview1.JPG', 'assets/img/topview3.JPG', 'assets/img/topview4.JPG'],
+    images: ['assets/img/topview2.JPG', 'assets/img/topview1.JPG', 'assets/img/topview3.JPG', 'assets/img/topview6.JPG'],
     effect: "drop",
     easing: "linear"
   });
