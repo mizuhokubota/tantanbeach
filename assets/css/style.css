@@ -55,6 +55,13 @@ html, body {
 
 
 /* section2 */ 
+.beachcontainer > a{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
 .beachname{
   display: flex;
   justify-content: center;
