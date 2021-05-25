@@ -20,6 +20,14 @@
    height: 350px;
 }
 /* 説明文 */
+.section1_1{
+  margin: 100px;
+}
+.section1_1>h1{
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: center;
+  font-size: 35px;
+}
 .section1_1> p{
   font-family: 'Noto Sans JP', sans-serif;
   text-align: center;
@@ -28,18 +36,10 @@
 
 /*slick*/
 
-
 html, body {
     margin: 0;
     padding: 0;
   }
- 
-
-
-
-
-
-
 /* section2 */ 
 .beachname{
   display: flex;
@@ -51,7 +51,6 @@ html, body {
   margin-bottom: 0;
 }
 .araha, .momen, .sunset, .baba, .toguchi, .miyagi{
-  background-image: url(../img/araha.png);
   width: 200px;
   height: 200px;
 }

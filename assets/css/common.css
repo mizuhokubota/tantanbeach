@@ -2,7 +2,7 @@ body{
   font-family: 'Noto Sans JP', sans-serif;
   background-color: #F4eade;
 }
-main{
+.top_main{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,11 +19,11 @@ main{
 }
 
 .description{
-  width: 85%;
   background-color: #fff;
   justify-content: space-around;
   text-align: center;
   padding: 3%;
+  margin: 3% 10%;
 }
 .description>img{
   width: 600px;
